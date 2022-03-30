@@ -7,3 +7,23 @@
     max-width: 1280px;
     width: 90%;
 }
+
+.input-field {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.inputbox{
+    background-color: none;
+    border: none;
+    border-bottom: 1px solid slategrey;
+    outline: none;
+    width: 100%
+}
+.inputlabel{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5px;
