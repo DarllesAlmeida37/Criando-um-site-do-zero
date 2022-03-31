@@ -65,6 +65,17 @@
 .inputdata:focus ~ .inputdlabel{
     color: dodgerblue    
 }
-.placeholder{
+button{
+    top: 0px;
+    font-size: 20px;
+    color: rgb(252, 239, 239);
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3f51b5;
+    cursor: pointer;
+    position: relative;
+    letter-spacing: .5px;
     
 }
