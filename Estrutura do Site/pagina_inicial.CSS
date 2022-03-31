@@ -1,3 +1,4 @@
+
 .style{
     margin-top: 8vh; 
     max-width: 500px
@@ -15,7 +16,7 @@
 }
 
 .inputbox{
-    margin: 10x;
+    margin: 0px;
     background-color: none;
     border: none;
     border-bottom: 1px solid slategrey;
@@ -23,6 +24,7 @@
     width: 100%
 }
 .inputlabel{
+    color: slategrey;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -40,17 +42,29 @@
     margin-bottom: 4rem;
 }
 .inputdata{
-    margin: 10px;
+    color: slategrey;
+    padding-top: 30px;
+    margin: 0px;
     background-color: none;
     border: none;
     border-bottom: 1px solid slategrey;
     outline: none;
     width: 100%
+    
 }
 .inputdlabel{
+    font-size: 14px;
+    color: slategrey;
     position: absolute;
-    top: 10px;
+    top: 0px;
     left: 0px;
     pointer-events: none;
     transition: .5px;
+    padding-bottom: 5px;
+}
+.inputdata:focus ~ .inputdlabel{
+    color: dodgerblue    
+}
+.placeholder{
+    
 }
