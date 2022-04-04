@@ -24,7 +24,7 @@
     width: 100%
 }
 .inputlabel{
-    color: slategrey;
+    color: rgba(112, 128, 144, 0.945);
     position: absolute;
     top: 0px;
     left: 0px;
@@ -42,19 +42,18 @@
     margin-bottom: 4rem;
 }
 .inputdata{
-    color: slategrey;
+    color: rgba(112, 128, 144, 0.425);
     padding-top: 30px;
     margin: 0px;
     background-color: none;
     border: none;
     border-bottom: 1px solid slategrey;
     outline: none;
-    width: 100%
-    
+    width: 100%  
 }
 .inputdlabel{
-    font-size: 14px;
-    color: slategrey;
+    font-size: 13px;
+    color: rgba(115, 130, 146, 0.884);
     position: absolute;
     top: 0px;
     left: 0px;
