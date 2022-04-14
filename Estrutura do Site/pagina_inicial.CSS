@@ -42,7 +42,7 @@
     margin-bottom: 4rem;
 }
 .inputdata{
-    color: rgba(112, 128, 144, 0.425);
+    color: rgba(112, 128, 144, 0.842);
     padding-top: 30px;
     margin: 0px;
     background-color: none;
@@ -76,5 +76,4 @@ button{
     cursor: pointer;
     position: relative;
     letter-spacing: .5px;
-    
 }
