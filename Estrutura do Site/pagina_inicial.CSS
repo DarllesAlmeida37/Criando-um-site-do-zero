@@ -77,3 +77,8 @@ button{
     position: relative;
     letter-spacing: .5px;
 }
+.ajuda{
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
